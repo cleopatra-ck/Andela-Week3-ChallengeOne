@@ -16,7 +16,11 @@ function arraySort(anArray) {
 
         } else if (nums[i]%2===1) {
         odds.push(nums[i]);
-               }
+        } 
+        
+        else {
+        char.push(nums[i]);
+        }
         }
     
 
