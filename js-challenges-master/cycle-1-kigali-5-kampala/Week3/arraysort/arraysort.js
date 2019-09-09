@@ -27,13 +27,13 @@ function arraySort(anArray) {
  
    }
 
-   alert(['Evens' + " " + ":" + " " + evens] );
-    alert(['Odds' + " " + ":" + " " + odds]);
-    alert(['Chars' + " " + ":" + " " + chars]);
+   alert('Evens' + " " + ":" + " " + [evens] );
+    alert('Odds' + " " + ":" + " " + [odds]);
+    alert('Chars' + " " + ":" + " " + [chars]);
     
   
 }
 
 
 
-//module.exports = arraySort;
+module.exports = arraySort;
