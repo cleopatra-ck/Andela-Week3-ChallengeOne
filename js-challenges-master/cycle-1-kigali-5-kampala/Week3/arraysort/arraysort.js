@@ -7,6 +7,14 @@ function arraySort(anArray) {
     var evens = [];
     var odds = [];
     var char = [];
+
+    for (var i = 0; i < nums.length; i++)
+    {
+        if(nums[i] % 2===0) {
+        evens.push(nums[i]);
+
+
+        
     
 
 
