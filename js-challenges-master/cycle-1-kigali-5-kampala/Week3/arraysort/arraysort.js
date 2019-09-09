@@ -27,9 +27,9 @@ function arraySort(anArray) {
  
    }
 
-   alert('Evens' + " " + ":" + " " + [evens] );
-    alert('Odds' + " " + ":" + " " + [odds]);
-    alert('Chars' + " " + ":" + " " + [chars]);
+   console.log('Evens' + " " + ":" + " " + [evens] );
+    console.log('Odds' + " " + ":" + " " + [odds]);
+    console.log('Chars' + " " + ":" + " " + [chars]);
     
   
 }
