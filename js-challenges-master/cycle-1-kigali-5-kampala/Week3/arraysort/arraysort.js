@@ -14,7 +14,10 @@ function arraySort(anArray) {
         evens.push(nums[i]);
 
 
-        
+        } else if (nums[i]%2===1) {
+        odds.push(nums[i]);
+               }
+        }
     
 
 
