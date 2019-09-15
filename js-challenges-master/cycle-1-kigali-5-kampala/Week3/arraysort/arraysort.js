@@ -4,8 +4,7 @@ function arraySort(anArray) {
     // Your code here
     if(Array.isArray(anArray)){
     
-        let arrob ={ evens:[], odds:[], chars:[]};
-
+        let arrob ={ evens:[], odds:[], chars:[]}
 
         for(i = 0; i < anArray.length; i++) {
           if(anArray[i]%2 == 0) {
@@ -21,12 +20,10 @@ function arraySort(anArray) {
       arrob.odds.sort();
       arrob.chars.sort();
       return arrob;
-
     }
     else { return "invalid input"}
     }
-
-       
+   
 module.exports = arraySort;
     
  
