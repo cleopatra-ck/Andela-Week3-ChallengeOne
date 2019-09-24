@@ -7,7 +7,7 @@ Given an array containing numbers and one character strings, write a function th
 
 arraySort([2,0,6,5,1,7,’z’,’a’])
 
-#	returns {‘evens’: [0,2,6], odds: [1,5,7], chars:[‘a’,’z’]}
+returns {‘evens’: [0,2,6], odds: [1,5,7], chars:[‘a’,’z’]}
 
 
 
